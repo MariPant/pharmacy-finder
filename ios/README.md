@@ -6,6 +6,12 @@ OpenStreetMap data. It has the same core features as the [web app](../web).
 The UI follows the device language: **English** or **Finnish** (Settings → Pharmacy
 Finder → Language lets users pick per app, as is standard on iOS).
 
+<p align="center">
+  <img src="../docs/screenshots/ios-list.png" alt="Map and list of nearby pharmacies" width="240">
+  <img src="../docs/screenshots/ios-detail.png" alt="Pharmacy details with directions" width="240">
+  <img src="../docs/screenshots/ios-dark.png" alt="Dark mode" width="240">
+</p>
+
 ## Features
 
 - **Location** with CoreLocation: permission is requested from a user action; if it

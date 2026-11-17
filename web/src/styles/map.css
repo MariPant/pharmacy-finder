@@ -5,11 +5,6 @@
   background: #e9ece9;
 }
 
-/* Slightly softer OSM tiles so the green markers stand out. */
-.leaflet-tile-pane {
-  filter: saturate(0.75) brightness(1.03);
-}
-
 .pharmacy-pin,
 .search-point-pin {
   background: none;
@@ -57,6 +52,15 @@
   line-height: 1.4;
 }
 
+/* Leaflet's defaults add large paragraph margins and blue links inside popups. */
+.leaflet-popup-content p {
+  margin: 0;
+}
+
+.leaflet-popup-content a {
+  color: var(--color-accent-hover);
+}
+
 .leaflet-popup-tip {
   box-shadow: none;
 }
@@ -75,4 +79,27 @@
 .leaflet-control-attribution {
   font-size: 11px;
   border-top-left-radius: 6px;
+}
+
+/*
+ * Some browsers leave hairline gaps between tiles at fractional pixel offsets.
+ * Tiles overlap by half a pixel instead; blending must be normal, or the overlap
+ * would be drawn brighter.
+ */
+.leaflet-container img.leaflet-tile {
+  mix-blend-mode: normal;
+  width: 256.5px !important;
+  height: 256.5px !important;
+}
+
+/* Markers get focus when clicked: a square focus ring around a pin looks broken,
+   so keyboard focus is shown on the pin outline instead. */
+.pharmacy-pin:focus,
+.search-point-pin:focus {
+  box-shadow: none;
+}
+
+.pharmacy-pin:focus-visible .pharmacy-pin__body {
+  stroke: var(--color-text);
+  stroke-width: 3;
 }

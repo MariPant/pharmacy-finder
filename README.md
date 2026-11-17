@@ -8,6 +8,17 @@ same core features:
 | **Web** | React 19, TypeScript (strict), Vite, Leaflet                | [`web/README.md`](web/README.md) |
 | **iOS** | Swift, SwiftUI, MapKit, CoreLocation, async/await (iOS 17+) | [`ios/README.md`](ios/README.md) |
 
+<p align="center">
+  <img src="docs/screenshots/web-desktop.png" alt="Web app on desktop: list of nearby pharmacies next to the map" width="100%">
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/ios-list.png" alt="iOS app: map and list of nearby pharmacies" width="200">
+  <img src="docs/screenshots/ios-detail.png" alt="iOS app: pharmacy details with directions" width="200">
+  <img src="docs/screenshots/ios-dark.png" alt="iOS app in dark mode" width="200">
+  <img src="docs/screenshots/web-fi.png" alt="Web app on a phone, in Finnish, with a pharmacy popup" width="200">
+</p>
+
 Both apps:
 
 - ask for location permission, show the user on the map, and handle denial with a

@@ -7,6 +7,15 @@ version lives in [`../ios`](../ios).
 The UI is available in **English** and **Finnish** (detected from the browser,
 switchable in the header).
 
+<p align="center">
+  <img src="../docs/screenshots/web-desktop.png" alt="Desktop layout: list next to the map" width="100%">
+</p>
+
+<p align="center">
+  <img src="../docs/screenshots/web-mobile.png" alt="Mobile layout" width="260">
+  <img src="../docs/screenshots/web-fi.png" alt="Finnish UI with a pharmacy popup" width="260">
+</p>
+
 ## Features
 
 - **Location**: asks for geolocation permission when the user taps the button, not on
