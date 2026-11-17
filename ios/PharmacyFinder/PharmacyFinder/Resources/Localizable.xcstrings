@@ -1,0 +1,506 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%lld pharmacies" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld pharmacy"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld pharmacies"
+                }
+              }
+            }
+          }
+        },
+        "fi" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld apteekki"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld apteekkia"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Accuracy ±%lld m" : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tarkkuus ±%lld m"
+          }
+        }
+      }
+    },
+    "Address" : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Osoite"
+          }
+        }
+      }
+    },
+    "Address not available" : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Osoite ei saatavilla"
+          }
+        }
+      }
+    },
+    "Allow location access to see the nearest pharmacies, or search by address or city." : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salli sijainnin käyttö nähdäksesi lähimmät apteekit tai hae osoitteella tai kaupungilla."
+          }
+        }
+      }
+    },
+    "Coordinates" : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koordinaatit"
+          }
+        }
+      }
+    },
+    "Couldn't reach the server. Check your connection and try again." : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palvelimeen ei saatu yhteyttä. Tarkista yhteys ja yritä uudelleen."
+          }
+        }
+      }
+    },
+    "Determining your location…" : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Määritetään sijaintiasi…"
+          }
+        }
+      }
+    },
+    "Directions" : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reittiohjeet"
+          }
+        }
+      }
+    },
+    "Distance" : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Etäisyys"
+          }
+        }
+      }
+    },
+    "Done" : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valmis"
+          }
+        }
+      }
+    },
+    "Find a pharmacy near you" : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Löydä apteekki läheltäsi"
+          }
+        }
+      }
+    },
+    "Location access is restricted on this device. Search by address instead." : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sijainnin käyttö on rajoitettu tässä laitteessa. Hae osoitteella."
+          }
+        }
+      }
+    },
+    "Location access is turned off for this app. Turn it on in Settings or search by address." : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sijainnin käyttö on poistettu käytöstä tältä sovellukselta. Ota se käyttöön asetuksista tai hae osoitteella."
+          }
+        }
+      }
+    },
+    "Location not set" : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sijaintia ei ole asetettu"
+          }
+        }
+      }
+    },
+    "Looking up the address…" : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haetaan osoitetta…"
+          }
+        }
+      }
+    },
+    "Nearby pharmacies" : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lähimmät apteekit"
+          }
+        }
+      }
+    },
+    "No internet connection. Check your connection and try again." : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei internetyhteyttä. Tarkista yhteys ja yritä uudelleen."
+          }
+        }
+      }
+    },
+    "No pharmacies found" : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apteekkeja ei löytynyt"
+          }
+        }
+      }
+    },
+    "Open Settings" : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avaa asetukset"
+          }
+        }
+      }
+    },
+    "OpenStreetMap has no pharmacies within %@ of this point. Try another address." : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenStreetMapissa ei ole apteekkeja %@ säteellä tästä pisteestä. Kokeile toista osoitetta."
+          }
+        }
+      }
+    },
+    "Opening hours" : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aukioloajat"
+          }
+        }
+      }
+    },
+    "Pharmacy data © OpenStreetMap contributors" : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apteekkitiedot © OpenStreetMapin tekijät"
+          }
+        }
+      }
+    },
+    "Phone" : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puhelin"
+          }
+        }
+      }
+    },
+    "Refresh results" : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Päivitä tulokset"
+          }
+        }
+      }
+    },
+    "Search area" : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hakualue"
+          }
+        }
+      }
+    },
+    "Search by address or city" : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hae osoitteella tai kaupungilla"
+          }
+        }
+      }
+    },
+    "Search point" : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hakupiste"
+          }
+        }
+      }
+    },
+    "Searching for pharmacies…" : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haetaan apteekkeja…"
+          }
+        }
+      }
+    },
+    "Show on map" : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Näytä kartalla"
+          }
+        }
+      }
+    },
+    "Something unexpected happened. Please try again." : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tapahtui odottamaton virhe. Yritä uudelleen."
+          }
+        }
+      }
+    },
+    "Something went wrong" : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jokin meni vikaan"
+          }
+        }
+      }
+    },
+    "The map service is temporarily unavailable. Please try again later." : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karttapalvelu ei ole tilapäisesti käytettävissä. Yritä myöhemmin uudelleen."
+          }
+        }
+      }
+    },
+    "The map service returned unexpected data. Please try again later." : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karttapalvelu palautti odottamatonta dataa. Yritä myöhemmin uudelleen."
+          }
+        }
+      }
+    },
+    "The pharmacy service is responding slowly. Try again in a moment." : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apteekkipalvelu vastaa hitaasti. Yritä hetken kuluttua uudelleen."
+          }
+        }
+      }
+    },
+    "Too many requests to the map service. Wait a moment and try again." : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liikaa pyyntöjä karttapalveluun. Odota hetki ja yritä uudelleen."
+          }
+        }
+      }
+    },
+    "Try again" : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yritä uudelleen"
+          }
+        }
+      }
+    },
+    "Unnamed pharmacy" : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nimetön apteekki"
+          }
+        }
+      }
+    },
+    "Update location" : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Päivitä sijainti"
+          }
+        }
+      }
+    },
+    "Updated %@" : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Päivitetty %@"
+          }
+        }
+      }
+    },
+    "Use my location" : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käytä sijaintiani"
+          }
+        }
+      }
+    },
+    "Use your location or search for an address" : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käytä sijaintiasi tai hae osoitteella"
+          }
+        }
+      }
+    },
+    "We couldn't find that place. Check the spelling or try a city name." : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paikkaa ei löytynyt. Tarkista kirjoitusasu tai kokeile kaupungin nimeä."
+          }
+        }
+      }
+    },
+    "You're offline. Results can't be updated until the connection is restored." : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei verkkoyhteyttä. Tuloksia ei voi päivittää ennen kuin yhteys palautuu."
+          }
+        }
+      }
+    },
+    "Your location" : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sijaintisi"
+          }
+        }
+      }
+    },
+    "Your location couldn't be determined. Try again or search by address." : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sijaintiasi ei voitu määrittää. Yritä uudelleen tai hae osoitteella."
+          }
+        }
+      }
+    },
+    "within %@" : {
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ säteellä"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

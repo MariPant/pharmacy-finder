@@ -1,0 +1,78 @@
+/* Global because Leaflet renders marker HTML outside React (no CSS-module class names). */
+
+.leaflet-container {
+  font-family: var(--font-sans);
+  background: #e9ece9;
+}
+
+/* Slightly softer OSM tiles so the green markers stand out. */
+.leaflet-tile-pane {
+  filter: saturate(0.75) brightness(1.03);
+}
+
+.pharmacy-pin,
+.search-point-pin {
+  background: none;
+  border: none;
+}
+
+.pharmacy-pin svg,
+.search-point-pin svg {
+  display: block;
+  overflow: visible;
+  filter: drop-shadow(0 2px 3px rgba(16, 24, 20, 0.28));
+  transition: transform var(--transition-fast);
+  transform-origin: 50% 100%;
+}
+
+.pharmacy-pin:hover svg {
+  transform: scale(1.08);
+}
+
+.pharmacy-pin__body {
+  fill: var(--color-accent);
+  stroke: #ffffff;
+  stroke-width: 2;
+}
+
+.pharmacy-pin--selected .pharmacy-pin__body {
+  fill: var(--color-accent-hover);
+}
+
+.search-point-pin__body {
+  fill: var(--color-search-point);
+  stroke: #ffffff;
+  stroke-width: 2;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+}
+
+.leaflet-popup-content {
+  margin: 14px 16px;
+  min-width: 220px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.leaflet-popup-tip {
+  box-shadow: none;
+}
+
+.leaflet-control-zoom {
+  border: none !important;
+  box-shadow: var(--shadow-md) !important;
+  border-radius: var(--radius-sm) !important;
+  overflow: hidden;
+}
+
+.leaflet-control-zoom a {
+  color: var(--color-text) !important;
+}
+
+.leaflet-control-attribution {
+  font-size: 11px;
+  border-top-left-radius: 6px;
+}

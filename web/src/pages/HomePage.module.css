@@ -1,0 +1,87 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+
+/* Mobile first: controls → map → list in a single column. */
+.layout {
+  flex: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-areas:
+    'controls'
+    'map'
+    'results';
+  gap: var(--space-4);
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: var(--space-4) var(--space-4) calc(var(--space-5) + env(safe-area-inset-bottom));
+}
+
+.controls {
+  grid-area: controls;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.mapPanel {
+  grid-area: map;
+  height: clamp(280px, 46vh, 520px);
+  scroll-margin-top: 80px; /* Clears the sticky header */
+}
+
+.results {
+  grid-area: results;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  min-width: 0;
+}
+
+.resultsInner {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.attribution {
+  font-size: 12px;
+  color: var(--color-text-tertiary);
+  text-align: center;
+}
+
+/* Desktop: sidebar with controls and list, map fills the rest. */
+@media (min-width: 900px) {
+  .app {
+    height: 100dvh;
+    overflow: hidden;
+  }
+
+  .layout {
+    min-height: 0;
+    max-width: none;
+    grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
+    grid-template-rows: auto minmax(0, 1fr);
+    grid-template-areas:
+      'controls map'
+      'results map';
+    gap: var(--space-4) var(--space-5);
+    padding: var(--space-4) var(--space-5) var(--space-5);
+  }
+
+  .mapPanel {
+    height: auto;
+    min-height: 0;
+  }
+
+  .results {
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    /* Room for card focus rings and shadows inside the scroll container. */
+    margin: 0 calc(var(--space-2) * -1);
+    padding: var(--space-1) var(--space-2) var(--space-2);
+  }
+}

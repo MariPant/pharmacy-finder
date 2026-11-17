@@ -1,0 +1,22 @@
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# Logs and local diagnostics
+*.log
+_diag/
+
+# Web
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+*.local
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+.swiftpm/
